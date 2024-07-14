@@ -1,0 +1,25 @@
+{
+  "name": "indie-suite",
+  "version": "1.0.0",
+  "description": "SaaS platform that provides tools for freelancers to manage projects, clients, and invoices. The platform will emphasize productivity and business management for freelancers, utilizing technologies such as Next.js, Tailwind CSS, Node.js, Express.js, and the Stripe API.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0"
+  }
+}
